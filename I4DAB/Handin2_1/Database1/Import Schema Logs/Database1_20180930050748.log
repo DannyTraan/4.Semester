@@ -1,0 +1,84 @@
+30-09-2018 19:07:48	This log contains information about the import schema operation into project 'Database1' on computer 'LAPTOP-C58FE9CF' by user 'Danny'.
+30-09-2018 19:07:48	Import of database schema has started.
+30-09-2018 19:07:55	Gathering database credentials
+30-09-2018 19:07:55	Gathering database options
+30-09-2018 19:07:55	Gathering users
+30-09-2018 19:07:55	Gathering roles
+30-09-2018 19:07:55	Gathering application roles
+30-09-2018 19:07:55	Gathering role memberships
+30-09-2018 19:07:55	Gathering filegroups
+30-09-2018 19:07:55	Gathering full-text catalogs
+30-09-2018 19:07:55	Gathering assemblies
+30-09-2018 19:07:55	Gathering certificates
+30-09-2018 19:07:55	Gathering asymmetric keys
+30-09-2018 19:07:55	Gathering symmetric keys
+30-09-2018 19:07:55	Gathering encrypted symmetric keys
+30-09-2018 19:07:55	Gathering schemas
+30-09-2018 19:07:55	Gathering XML schema collections
+30-09-2018 19:07:55	Gathering user-defined data types
+30-09-2018 19:07:55	Gathering user-defined types
+30-09-2018 19:07:55	Gathering table types
+30-09-2018 19:07:55	Gathering unique keys for table types
+30-09-2018 19:07:55	Gathering primary keys for table types
+30-09-2018 19:07:55	Gathering indexes for table types
+30-09-2018 19:07:55	Gathering check constraints for table types
+30-09-2018 19:07:55	Gathering default constraints for table types
+30-09-2018 19:07:55	Gathering partition functions
+30-09-2018 19:07:55	Gathering partition schemes
+30-09-2018 19:07:55	Gathering functions
+30-09-2018 19:07:55	Gathering encrypted functions
+30-09-2018 19:07:55	Gathering aggregates
+30-09-2018 19:07:55	Gathering procedures
+30-09-2018 19:07:55	Gathering encrypted procedures
+30-09-2018 19:07:55	Gathering tables
+30-09-2018 19:07:55	Gathering primary keys
+30-09-2018 19:07:55	Gathering unique constraints
+30-09-2018 19:07:55	Gathering foreign keys
+30-09-2018 19:07:55	Gathering default constraints
+30-09-2018 19:07:55	Gathering check constraints
+30-09-2018 19:07:55	Gathering views
+30-09-2018 19:07:55	Gathering encrypted views
+30-09-2018 19:07:55	Gathering indexes
+30-09-2018 19:07:55	Gathering statistics
+30-09-2018 19:07:55	Gathering full-text index stoplists
+30-09-2018 19:07:55	Gathering search property lists
+30-09-2018 19:07:55	Gathering search properties
+30-09-2018 19:07:55	Gathering full-text indexes
+30-09-2018 19:07:55	Gathering column store indexes
+30-09-2018 19:07:55	Gathering spatial indexes
+30-09-2018 19:07:55	Gathering XML indexes
+30-09-2018 19:07:56	Gathering Selective XML indexes
+30-09-2018 19:07:56	Gathering encrypted triggers
+30-09-2018 19:07:56	Gathering triggers
+30-09-2018 19:07:56	Gathering encrypted and clr ddl triggers
+30-09-2018 19:07:56	Gathering ddl triggers
+30-09-2018 19:07:56	Gathering synonyms
+30-09-2018 19:07:56	Gathering defaults
+30-09-2018 19:07:56	Gathering data constraint uddt bindings
+30-09-2018 19:07:56	Gathering rules
+30-09-2018 19:07:56	Gathering data constraint uddt bindings
+30-09-2018 19:07:56	Gathering message types
+30-09-2018 19:07:56	Gathering queues
+30-09-2018 19:07:56	Gathering contracts
+30-09-2018 19:07:56	Gathering services
+30-09-2018 19:07:56	Gathering event notifications
+30-09-2018 19:07:56	Gathering remote service bindings
+30-09-2018 19:07:56	Gathering broker priorities
+30-09-2018 19:07:56	Gathering signatures
+30-09-2018 19:07:56	Gathering data compression options
+30-09-2018 19:07:56	Gathering sequence types
+30-09-2018 19:07:56	Gathering security policies
+30-09-2018 19:07:56	Gather column encryption keys
+30-09-2018 19:07:56	Gathering column master keys
+30-09-2018 19:07:56	Gathering external data sources
+30-09-2018 19:07:56	Gathering external file formats
+30-09-2018 19:07:56	Gathering external tables
+30-09-2018 19:07:56	Gathering extended properties
+30-09-2018 19:07:56	Gathering credentials
+30-09-2018 19:07:56	Gathering logins
+30-09-2018 19:07:56	Gathering server audits
+30-09-2018 19:07:56	Scanning project for duplicate elements
+30-09-2018 19:07:56	Finished duplicate element processing
+30-09-2018 19:07:57	Finished importing database.
+30-09-2018 19:07:57	A summary of the import was saved to the following location: C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\Import Schema Logs\Database1_20180930050748.log
+30-09-2018 19:07:57	Click Finish to continue...

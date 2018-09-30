@@ -1,0 +1,16 @@
+C:\Users\Danny\source\repos\MemoApp\MemoApp\bin\Debug\MemoApp.exe.config
+C:\Users\Danny\source\repos\MemoApp\MemoApp\bin\Debug\MemoApp.exe
+C:\Users\Danny\source\repos\MemoApp\MemoApp\bin\Debug\MemoApp.pdb
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp.csprojResolveAssemblyReference.cache
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MainWindow.g.cs
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\App.g.cs
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp_Content.g.cs
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp_MarkupCompile.cache
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp_MarkupCompile.lref
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MainWindow.baml
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp.g.resources
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp.Properties.Resources.resources
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp.csproj.GenerateResource.Cache
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp.csproj.CoreCompileInputs.cache
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp.exe
+C:\Users\Danny\source\repos\MemoApp\MemoApp\obj\Debug\MemoApp.pdb

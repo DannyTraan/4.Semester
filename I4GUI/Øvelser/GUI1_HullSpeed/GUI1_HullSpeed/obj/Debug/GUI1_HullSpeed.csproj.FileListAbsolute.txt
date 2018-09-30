@@ -1,0 +1,15 @@
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed.csprojResolveAssemblyReference.cache
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\MainWindow.g.cs
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\App.g.cs
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed_MarkupCompile.cache
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed_MarkupCompile.lref
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\bin\Debug\GUI1_HullSpeed.exe.config
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\bin\Debug\GUI1_HullSpeed.exe
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\bin\Debug\GUI1_HullSpeed.pdb
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\MainWindow.baml
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed.g.resources
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed.Properties.Resources.resources
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed.csproj.GenerateResource.Cache
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed.csproj.CoreCompileInputs.cache
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed.exe
+C:\Users\Danny\source\repos\GUI1_HullSpeed\GUI1_HullSpeed\obj\Debug\GUI1_HullSpeed.pdb

@@ -1,0 +1,60 @@
+﻿<Window x:Class="GUI1_HullSpeed.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI1_HullSpeed"
+        mc:Ignorable="d"
+        Title="HullSpeed Calculator" Height="325" Width="455">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel HorizontalAlignment="Left" Height="311" Margin="0,10,0,-0.2" VerticalAlignment="Top" Width="250
+                ">
+        <WrapPanel Orientation="Horizontal">
+                <TextBlock Margin="9, 5">
+                <Underline>N</Underline>ame:
+            </TextBlock>
+            <TextBox MinWidth="120" Margin="2,6"
+                     Name="tbxName"
+                     TextChanged="TbxName_OnTextChanged"
+                     />
+        </WrapPanel>
+        <WrapPanel Orientation="Horizontal">
+            <TextBlock Margin="9, 10, 5, 10">
+                <Underline>L</Underline>ength:
+            </TextBlock>
+            <TextBox MinWidth="60" Margin=" 1, 10, 0,10"
+                     Name="tbxLength"
+                     TextChanged="TbxLength_OnTextChanged"
+                     />
+            <TextBlock Margin="9">feet</TextBlock>
+        </WrapPanel>
+        <WrapPanel>
+                <Button 
+                    Name="btnCalculateHullSpeed"
+                    Margin="50, 2, 0, 2" 
+                    Width="120" 
+                    Height="20"
+                    Panel.ZIndex="5" Click="BtnCalculateHullSpeed_OnClick" IsDefault="True">
+                    <Bold>Calculate Hull Speed</Bold>
+            </Button>
+        </WrapPanel>
+        <WrapPanel>
+            <TextBlock Margin="10, 2">Hull Speed:</TextBlock>
+            <TextBlock Margin="3"
+                     MinWidth="44"
+                     Name="tbxHullSpeed"
+                     />
+            <TextBlock Margin="3"
+                       Text="knots"/>
+        </WrapPanel>
+    </StackPanel>
+        <StackPanel>
+            <Viewbox MaxWidth="200">
+                <Image Source="03-Sailboat.jpg"/>
+            </Viewbox>
+        </StackPanel>
+</StackPanel>
+    
+
+</Window>
+    

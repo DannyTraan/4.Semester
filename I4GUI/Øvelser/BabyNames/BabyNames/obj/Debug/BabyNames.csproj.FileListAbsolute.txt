@@ -1,0 +1,15 @@
+C:\Users\Danny\source\repos\BabyNames\BabyNames\bin\Debug\BabyNames.exe.config
+C:\Users\Danny\source\repos\BabyNames\BabyNames\bin\Debug\BabyNames.exe
+C:\Users\Danny\source\repos\BabyNames\BabyNames\bin\Debug\BabyNames.pdb
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames.csprojResolveAssemblyReference.cache
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\MainWindow.g.cs
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\App.g.cs
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames_MarkupCompile.cache
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames_MarkupCompile.lref
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\MainWindow.baml
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames.g.resources
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames.Properties.Resources.resources
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames.csproj.GenerateResource.Cache
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames.csproj.CoreCompileInputs.cache
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames.exe
+C:\Users\Danny\source\repos\BabyNames\BabyNames\obj\Debug\BabyNames.pdb

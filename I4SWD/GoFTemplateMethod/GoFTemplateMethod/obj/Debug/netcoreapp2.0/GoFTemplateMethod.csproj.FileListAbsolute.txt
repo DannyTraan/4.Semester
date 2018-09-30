@@ -1,0 +1,11 @@
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\bin\Debug\netcoreapp2.0\GoFTemplateMethod.deps.json
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\bin\Debug\netcoreapp2.0\GoFTemplateMethod.runtimeconfig.json
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\bin\Debug\netcoreapp2.0\GoFTemplateMethod.runtimeconfig.dev.json
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\bin\Debug\netcoreapp2.0\GoFTemplateMethod.dll
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\bin\Debug\netcoreapp2.0\GoFTemplateMethod.pdb
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\obj\Debug\netcoreapp2.0\GoFTemplateMethod.csprojResolveAssemblyReference.cache
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\obj\Debug\netcoreapp2.0\GoFTemplateMethod.csproj.CoreCompileInputs.cache
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\obj\Debug\netcoreapp2.0\GoFTemplateMethod.AssemblyInfoInputs.cache
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\obj\Debug\netcoreapp2.0\GoFTemplateMethod.AssemblyInfo.cs
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\obj\Debug\netcoreapp2.0\GoFTemplateMethod.dll
+C:\Users\Danny\source\repos\GoFTemplateMethod\GoFTemplateMethod\obj\Debug\netcoreapp2.0\GoFTemplateMethod.pdb
