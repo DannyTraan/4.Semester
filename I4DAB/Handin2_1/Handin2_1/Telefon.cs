@@ -21,17 +21,17 @@ namespace Handin2_1
 
         #region Properties
 
-        public string getTeleSelskab
+        public string GetTeleSelskab
         {
             get { return _TeleSelskab; }
         }
 
-        public string getTelefonType
+        public string GetTelefonType
         {
             get { return _TelefonType; }
         }
 
-        public uint getTelefonNummer
+        public uint GetTelefonNummer
         {
             get { return _Nummer; }
         }

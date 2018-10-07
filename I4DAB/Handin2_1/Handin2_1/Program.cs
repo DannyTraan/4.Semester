@@ -27,11 +27,11 @@ namespace Handin2_1
             Noter noter1 = new Noter("Smuk");
             Telefon telefon1 = new Telefon("OiSTER", "Privat", 26851586);
             Telefon telefon2 = new Telefon("CBB", "Arbejde", 28195388);
-            person1.setAdresse(adresse1);
-            person1.setAdresse(adresse2);
-            person1.setTelefonNummer(telefon1);
-            person1.setEmail(email1);
-            person1.setNoter(noter1);
+            person1.SetAdresse(adresse1);
+            person1.SetAdresse(adresse2);
+            person1.SetTelefonNummer(telefon1);
+            person1.SetEmail(email1);
+            person1.SetNoter(noter1);
 
             #endregion
             myPersonKartotek.AddPerson(person1);

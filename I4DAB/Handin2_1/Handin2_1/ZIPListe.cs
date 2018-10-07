@@ -15,7 +15,7 @@ namespace Handin2_1
             _zips = new List<ZIP>();
         }
 
-        private static void addZIP(ZIP zip)
+        private static void AddZIP(ZIP zip)
         {
             _zips.Add(zip);
         }
@@ -24,14 +24,14 @@ namespace Handin2_1
         {
             if (_zips.Count == 0)
             {
-                addZIP(zip);
+                AddZIP(zip);
                 return _zips.Count - 1;
             }
 
             bool isThere = _zips.Contains(zip);
             if (!isThere)
             {
-                addZIP(zip);
+                AddZIP(zip);
             }
             else
             {

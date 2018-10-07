@@ -34,17 +34,17 @@ namespace Handin2_1
 
         #region Properties
 
-        public string getAdresseType
+        public string GetAdresseType
         {
             get { return _AdresseType; }
         }
 
-        public string getGade
+        public string GetGade
         {
             get { return _Gade; }
         }
 
-        public uint getGadeNummer
+        public uint GetGadeNummer
         {
             get { return _GadeNummer; }
         }

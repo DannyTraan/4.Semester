@@ -67,7 +67,7 @@ namespace Handin2_1
 
         #region Kommandoer
 
-        public void setAdresse(Adresse adresse)
+        public void SetAdresse(Adresse adresse)
         {
             adresse.AddPerson(this);
             _Adresser.Add(adresse);
@@ -78,7 +78,7 @@ namespace Handin2_1
             return _Adresser;
         }
 
-        public void setTelefonNummer(Telefon telefonNummer)
+        public void SetTelefonNummer(Telefon telefonNummer)
         {
             _TelefonNummer.Add(telefonNummer);
         }
@@ -88,7 +88,7 @@ namespace Handin2_1
             return _TelefonNummer;
         }
 
-        public void setEmail(Email email)
+        public void SetEmail(Email email)
         {
             _Email = email;
         }
@@ -98,7 +98,7 @@ namespace Handin2_1
             return _Email;
         }
 
-        public void setNoter(Noter noter)
+        public void SetNoter(Noter noter)
         {
             _Noter = noter;
         }
