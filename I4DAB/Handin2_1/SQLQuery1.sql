@@ -53,7 +53,6 @@ GO
 --
 -- Create Table    : 'Person'   
 -- PersonID        :  
--- Noter           :  
 -- Telefon         :  
 -- Email           :  
 -- Adresse         :  
@@ -64,7 +63,6 @@ GO
 --
 CREATE TABLE Person (
     PersonID       BIGINT IDENTITY(1,1) NOT NULL,
-    Noter          NVARCHAR(50) NOT NULL,
     Telefon        NVARCHAR(50) NOT NULL,
     Email          NVARCHAR(50) NOT NULL,
     Adresse        NVARCHAR(50) NOT NULL,
@@ -134,5 +132,22 @@ CONSTRAINT fk_AA FOREIGN KEY (PersonID)
 CONSTRAINT fk_AA2 FOREIGN KEY (AdresseID)
     REFERENCES Adresse (AdresseID)
     ON DELETE CASCADE
+    ON UPDATE CASCADE)
+GO
+
+--
+-- Create Table    : 'Noter'   
+-- NoteID          :  
+-- Notes           :  
+-- PersonID        :  (references Person.PersonID)
+--
+CREATE TABLE Noter (
+    NoteID         BIGINT IDENTITY(1,1) NOT NULL,
+    Notes          NVARCHAR(50) NOT NULL,
+    PersonID       BIGINT NOT NULL,
+CONSTRAINT pk_Noter PRIMARY KEY CLUSTERED (NoteID),
+CONSTRAINT fk_Noter FOREIGN KEY (PersonID)
+    REFERENCES Person (PersonID)
+    ON DELETE NO ACTION
     ON UPDATE CASCADE)
 GO

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handin2_1", "Handin2_1\Handin2_1.csproj", "{1F832581-7098-4204-9E3D-CF68CCA2B3F4}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "Database1\Database1.sqlproj", "{02213565-4885-41A1-B38C-79F66C3D67F9}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database_Handin2", "Database_Handin2\Database_Handin2.sqlproj", "{829CFD01-8A25-4AB9-AA47-E6694B0772A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +17,12 @@ Global
 		{1F832581-7098-4204-9E3D-CF68CCA2B3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F832581-7098-4204-9E3D-CF68CCA2B3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F832581-7098-4204-9E3D-CF68CCA2B3F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02213565-4885-41A1-B38C-79F66C3D67F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02213565-4885-41A1-B38C-79F66C3D67F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02213565-4885-41A1-B38C-79F66C3D67F9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{02213565-4885-41A1-B38C-79F66C3D67F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02213565-4885-41A1-B38C-79F66C3D67F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02213565-4885-41A1-B38C-79F66C3D67F9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -53,6 +53,7 @@
     <Compile Include="Adresse.cs" />
     <Compile Include="DbContext.cs" />
     <Compile Include="Email.cs" />
+    <Compile Include="Noter.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonKartotek.cs" />
     <Compile Include="Program.cs" />

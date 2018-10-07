@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,6 +23,7 @@ namespace Handin2_1
         private List<Adresse> _Adresser;
         private List<Telefon> _TelefonNummer;
         private Email _Email;
+        private Noter _Noter;
         #endregion
 
         public Person(string forNavn, string mellemNavn, string efterNavn, int personID, string personType)
@@ -96,6 +96,16 @@ namespace Handin2_1
         public Email GetEmail()
         {
             return _Email;
+        }
+
+        public void setNoter(Noter noter)
+        {
+            _Noter = noter;
+        }
+
+        public Noter GetNoter()
+        {
+            return _Noter;
         }
 
         #endregion

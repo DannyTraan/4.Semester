@@ -12,7 +12,7 @@ namespace Handin2_1
         public List<Person> FRAPersoner { get; set; }
         public List<AA> AlternativePersonerPaaAdressen { get; set; }
 
-        #region MyRegion
+        #region Attributter
 
         private string _AdresseType;
         private string _Gade;

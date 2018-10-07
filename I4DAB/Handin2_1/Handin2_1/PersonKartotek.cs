@@ -39,12 +39,11 @@ namespace Handin2_1
                     Console.WriteLine($"AdresseType: {l.getAdresseType}");
                     Console.WriteLine($"Adresse: {l.getGade}, {l.getGadeNummer}");
                     var i2 = l.GetZIP;
-                    Console.WriteLine($"Adresse: {i2.Land}, {i2.By}, {i2.PostNummer}");
+                    Console.WriteLine($"Sted: {i2.Land}, {i2.By}, {i2.PostNummer}");
                     Console.WriteLine("------------------------------");
                 }
 
                 var i3 = p.GetTelefonNummer();
-                Console.WriteLine("------------------------------");
                 Console.WriteLine($"Antal telefon numre: {i3.Count}");
                 foreach (var telefon in i3)
                 {
@@ -55,6 +54,10 @@ namespace Handin2_1
 
                 var i4 = p.GetEmail();
                 Console.WriteLine($"Email adresse: {i4.GetEmail}");
+
+                var i5 = p.GetNoter();
+                Console.WriteLine($"Noter: {i5.getNoter}");
+                Console.WriteLine("------------------------------");
             }
         }
     }
