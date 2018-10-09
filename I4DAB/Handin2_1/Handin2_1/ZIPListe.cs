@@ -8,42 +8,10 @@ namespace Handin2_1
 {
     public class ZIPListe
     {
-        public static List<ZIP> _zips;
+        public virtual int ZipListeID { get; set; }
+        public virtual string _Land { get; set; }
+        public virtual string _By { get; set; }
+        public virtual string _PostNummer { get; set; }
 
-        public ZIPListe()
-        {
-            _zips = new List<ZIP>();
-        }
-
-        private static void AddZIP(ZIP zip)
-        {
-            _zips.Add(zip);
-        }
-
-        public static int LookUp(ZIP zip)
-        {
-            if (_zips.Count == 0)
-            {
-                AddZIP(zip);
-                return _zips.Count - 1;
-            }
-
-            bool isThere = _zips.Contains(zip);
-            if (!isThere)
-            {
-                AddZIP(zip);
-            }
-            else
-            {
-                return _zips.IndexOf(zip);
-            }
-
-            return _zips.Count - 1;
-        }
-
-        public List<ZIP> GetList()
-        {
-            return _zips;
-        }
     }
 }

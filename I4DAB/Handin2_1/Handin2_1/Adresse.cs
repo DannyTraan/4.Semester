@@ -9,72 +9,17 @@ namespace Handin2_1
 {
     public class Adresse
     {
-        public List<Person> FRAPersoner { get; set; }
-        public List<AA> AlternativePersonerPaaAdressen { get; set; }
+        public virtual ICollection<Person> FRAPersoner { get; set; }
+        public virtual ICollection<AA> AlternativePersonerPaaAdressen { get; set; }
 
         #region Attributter
 
-        private string _AdresseType;
-        private string _Gade;
-        private uint _GadeNummer;
-        private List<Person> _Personer = new List<Person>();
-        private ZIP _zip;
-
-        #endregion
-
-        public Adresse(string AdresseType, string Gade, uint GadeNummer, ZIP zip)
-        {
-            _AdresseType = AdresseType;
-            _GadeNummer = GadeNummer;
-            _Gade = Gade;
-
-            int j = ZIPListe.LookUp(zip);
-            _zip = ZIPListe._zips[j];
-        }
-
-        #region Properties
-
-        public string GetAdresseType
-        {
-            get { return _AdresseType; }
-        }
-
-        public string GetGade
-        {
-            get { return _Gade; }
-        }
-
-        public uint GetGadeNummer
-        {
-            get { return _GadeNummer; }
-        }
-
-        public ZIP GetZIP
-        {
-            get { return _zip; }
-        }
-
-        #endregion
-
-        #region Kommandoer
-
-        public void AddPerson(Person person)
-        {
-            bool isThere = _Personer.Contains(person);
-            if (!isThere)
-            {
-                _Personer.Add(person);
-            }
-            else
-            {
-                return;
-            }
-        }
-
-        public List<Person> LookUpPersoner()
-        {
-            return _Personer;
-        }
+        public virtual string _AdresseType { get; set; }
+        public virtual string _Gade { get; set; }
+        public virtual string _GadeNummer { get; set; }
+        public virtual ICollection<Person> _Personer { get; set; }
+        public virtual ICollection<ZIP> _zip { get; set; }
+        public virtual int _AdresseID { get; set; }
 
         #endregion
     }

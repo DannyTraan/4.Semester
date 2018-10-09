@@ -8,16 +8,7 @@ namespace Handin2_1
 {
     public class Email
     {
-        private string _emailAddresse;
-
-        public Email(string emailAddresse)
-        {
-            _emailAddresse = emailAddresse;
-        }
-
-        public string GetEmail
-        {
-            get { return _emailAddresse; }
-        }
+        public virtual string _EmailAddresse { get; set; }
+        public virtual int EmailID { get; set; }
     }
 }

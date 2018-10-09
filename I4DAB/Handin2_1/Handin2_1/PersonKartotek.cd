@@ -3,19 +3,19 @@
   <Class Name="Handin2_1.Person">
     <Position X="6" Y="0.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>RICAAQAESAAAAACAIAACAAAAAEECBEAAAAAIAAAAAAI=</HashCode>
+      <HashCode>BICAAAAAAAAAAAAAAAASAAAAAEECAEAAAAAIAAAAAAA=</HashCode>
       <FileName>Person.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Handin2_1.Adresse">
     <Position X="8.25" Y="0.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAgBAAAgAAggAAAAAAAAGAAAYAAAAAAAAAAAgAAAEg=</HashCode>
+      <HashCode>AAAgBAAAAAAgoAAAAAAAAEAAAYAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Adresse.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Handin2_1.AA">
-    <Position X="4.25" Y="3" Width="1.5" />
+    <Position X="4.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>AA.cs</FileName>
@@ -24,26 +24,26 @@
   <Class Name="Handin2_1.Email">
     <Position X="4.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Email.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Handin2_1.Telefon">
     <Position X="2.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gEgAAAAAAAAIAAAAAgAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEgAAAAAAAAKAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Telefon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Handin2_1.ZIP">
     <Position X="2.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAKAAAAAAAAAAAAAAACAIAAgAAAAgAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAACAIAAAAAAAgAAAA=</HashCode>
       <FileName>ZIP.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Handin2_1.DbContext">
-    <Position X="10.75" Y="3" Width="1.5" />
+    <Position X="10.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAABgCAAAAACAAAAAAAAEBAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DbContext.cs</FileName>
@@ -52,21 +52,14 @@
   <Class Name="Handin2_1.ZIPListe">
     <Position X="10.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAI=</HashCode>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAACAIAAAAAAAgAAAA=</HashCode>
       <FileName>ZIPListe.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Handin2_1.PersonKartotek">
-    <Position X="8.25" Y="5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAEA=</HashCode>
-      <FileName>PersonKartotek.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Handin2_1.Noter">
     <Position X="0.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Noter.cs</FileName>
     </TypeIdentifier>
   </Class>

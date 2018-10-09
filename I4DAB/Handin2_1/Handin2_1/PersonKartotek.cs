@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -53,12 +53,21 @@ namespace Handin2_1
                 }
 
                 var i4 = p.GetEmail();
-                Console.WriteLine($"Email adresse: {i4.GetEmail}");
+                Console.WriteLine($"Antal Emails: {i4.Count}");
+                foreach (var email in i4)
+                {
+                    Console.WriteLine($"Email adresse: {i4.GetEmail}");
+                }
 
                 var i5 = p.GetNoter();
-                Console.WriteLine($"Noter: {i5.GetNoter}");
+                Console.WriteLine($"Antal Noter: {i5.Count}");
+                foreach (var noter in i5)
+                {
+                    Console.WriteLine($"Noter: {i5.GetNoter}");
+                }
+
                 Console.WriteLine("------------------------------");
             }
         }
     }
-}
+}*/

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handin2_1", "Handin2_1\Hand
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database_Handin2", "Database_Handin2\Database_Handin2.sqlproj", "{829CFD01-8A25-4AB9-AA47-E6694B0772A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLogic", "ApplicationLogic\ApplicationLogic.csproj", "{2B5D487F-E7C2-4209-ADFD-2080BEAD8F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{FDAEE532-F7B7-4E54-8FCA-29DE6C501C69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{829CFD01-8A25-4AB9-AA47-E6694B0772A2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2B5D487F-E7C2-4209-ADFD-2080BEAD8F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5D487F-E7C2-4209-ADFD-2080BEAD8F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5D487F-E7C2-4209-ADFD-2080BEAD8F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5D487F-E7C2-4209-ADFD-2080BEAD8F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAEE532-F7B7-4E54-8FCA-29DE6C501C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAEE532-F7B7-4E54-8FCA-29DE6C501C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAEE532-F7B7-4E54-8FCA-29DE6C501C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAEE532-F7B7-4E54-8FCA-29DE6C501C69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
