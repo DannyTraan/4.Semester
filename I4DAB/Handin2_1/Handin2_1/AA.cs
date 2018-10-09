@@ -7,8 +7,9 @@ namespace Handin2_1
 {
     public class AA
     {
+        public virtual int _AAID { get; set; }
         public virtual Person TilknyttetPerson { get; set; }
         public virtual Adresse TilknyttetAdresse { get; set; }
-        public virtual String AdresseType { get; set; }
+        public virtual string _AdresseType { get; set; }
     }
 }
