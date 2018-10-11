@@ -8,9 +8,9 @@ namespace Handin2_1
 {
     public class Telefon
     {
-        public virtual int _TelefonID { get; set; }
+        public virtual long _TelefonID { get; set; }
         public virtual string _TeleSelskab { get; set; }
         public virtual string _TelefonType { get; set; }
-        public virtual uint _Nummer { get; set; }
+        public virtual string _Nummer { get; set; }
     }
 }

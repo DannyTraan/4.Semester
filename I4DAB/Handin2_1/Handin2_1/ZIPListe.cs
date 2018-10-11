@@ -8,7 +8,7 @@ namespace Handin2_1
 {
     public class ZIPListe
     {
-        public virtual int ZipListeID { get; set; }
+        public virtual long _ZIPListeID { get; set; }
         public virtual string _Land { get; set; }
         public virtual string _By { get; set; }
         public virtual string _PostNummer { get; set; }
