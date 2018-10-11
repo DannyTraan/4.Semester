@@ -1,0 +1,12 @@
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\bin\Debug\Handin2_1.pdb
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\obj\Debug\Infrastructure.csprojAssemblyReference.cache
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\obj\Debug\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\obj\Debug\Infrastructure.csproj.CopyComplete
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\bin\Debug\Handin2_1.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Infrastructure\bin\Debug\Handin2_1.dll.config

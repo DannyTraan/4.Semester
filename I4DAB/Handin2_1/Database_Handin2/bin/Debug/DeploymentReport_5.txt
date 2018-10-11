@@ -1,0 +1,33 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AA] (Table)
+       [dbo].[Adresse] (Table)
+       [dbo].[Email] (Table)
+       [dbo].[Noter] (Table)
+       [dbo].[Person] (Table)
+       [dbo].[Telefon] (Table)
+       [dbo].[ZIP] (Table)
+       [dbo].[ZIPListe] (Table)
+       [dbo].[fk_AA] (Foreign Key)
+       [dbo].[fk_AA2] (Foreign Key)
+       [dbo].[fk_Adresse] (Foreign Key)
+       [dbo].[fk_Person] (Foreign Key)
+       [dbo].[fk_Person2] (Foreign Key)
+       [dbo].[fk_Person3] (Foreign Key)
+       [dbo].[fk_Person4] (Foreign Key)
+       [dbo].[fk_ZIP] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

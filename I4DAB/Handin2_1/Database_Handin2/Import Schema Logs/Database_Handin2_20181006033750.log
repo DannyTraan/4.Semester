@@ -1,0 +1,82 @@
+06-10-2018 17:37:50	This log contains information about the import schema operation into project 'Database_Handin2' on computer 'LAPTOP-C58FE9CF' by user 'Danny'.
+06-10-2018 17:37:50	Import of database schema has started.
+06-10-2018 17:37:58	Gathering database credentials
+06-10-2018 17:37:58	Gathering database options
+06-10-2018 17:37:58	Gathering generic database scoped configuration option
+06-10-2018 17:37:58	Gathering users
+06-10-2018 17:37:58	Gathering roles
+06-10-2018 17:37:58	Gathering application roles
+06-10-2018 17:37:58	Gathering role memberships
+06-10-2018 17:37:58	Gathering filegroups
+06-10-2018 17:37:58	Gathering full-text catalogs
+06-10-2018 17:37:58	Gathering assemblies
+06-10-2018 17:37:58	Gathering certificates
+06-10-2018 17:37:58	Gathering asymmetric keys
+06-10-2018 17:37:58	Gathering symmetric keys
+06-10-2018 17:37:58	Gathering encrypted symmetric keys
+06-10-2018 17:37:58	Gathering schemas
+06-10-2018 17:37:58	Gathering XML schema collections
+06-10-2018 17:37:58	Gathering user-defined data types
+06-10-2018 17:37:58	Gathering user-defined types
+06-10-2018 17:37:58	Gathering table types
+06-10-2018 17:37:58	Gathering unique keys for table types
+06-10-2018 17:37:58	Gathering primary keys for table types
+06-10-2018 17:37:58	Gathering indexes for table types
+06-10-2018 17:37:58	Gathering check constraints for table types
+06-10-2018 17:37:58	Gathering default constraints for table types
+06-10-2018 17:37:58	Gathering partition functions
+06-10-2018 17:37:58	Gathering partition schemes
+06-10-2018 17:37:58	Gathering functions
+06-10-2018 17:37:58	Gathering encrypted functions
+06-10-2018 17:37:58	Gathering aggregates
+06-10-2018 17:37:58	Gathering procedures
+06-10-2018 17:37:58	Gathering encrypted procedures
+06-10-2018 17:37:58	Gathering tables
+06-10-2018 17:37:58	Gathering primary keys
+06-10-2018 17:37:58	Gathering unique constraints
+06-10-2018 17:37:58	Gathering foreign keys
+06-10-2018 17:37:58	Gathering default constraints
+06-10-2018 17:37:58	Gathering check constraints
+06-10-2018 17:37:58	Gathering views
+06-10-2018 17:37:58	Gathering encrypted views
+06-10-2018 17:37:58	Gathering indexes
+06-10-2018 17:37:58	Gathering statistics
+06-10-2018 17:37:58	Gathering full-text index stoplists
+06-10-2018 17:37:58	Gathering search property lists
+06-10-2018 17:37:58	Gathering search properties
+06-10-2018 17:37:58	Gathering full-text indexes
+06-10-2018 17:37:58	Gathering column store indexes
+06-10-2018 17:37:58	Gathering spatial indexes
+06-10-2018 17:37:58	Gathering XML indexes
+06-10-2018 17:37:58	Gathering Selective XML indexes
+06-10-2018 17:37:58	Gathering encrypted triggers
+06-10-2018 17:37:58	Gathering triggers
+06-10-2018 17:37:58	Gathering encrypted and clr ddl triggers
+06-10-2018 17:37:58	Gathering ddl triggers
+06-10-2018 17:37:58	Gathering synonyms
+06-10-2018 17:37:58	Gathering defaults
+06-10-2018 17:37:58	Gathering data constraint uddt bindings
+06-10-2018 17:37:58	Gathering rules
+06-10-2018 17:37:58	Gathering data constraint uddt bindings
+06-10-2018 17:37:58	Gathering message types
+06-10-2018 17:37:58	Gathering queues
+06-10-2018 17:37:58	Gathering contracts
+06-10-2018 17:37:58	Gathering services
+06-10-2018 17:37:58	Gathering event notifications
+06-10-2018 17:37:58	Gathering remote service bindings
+06-10-2018 17:37:58	Gathering broker priorities
+06-10-2018 17:37:58	Gathering signatures
+06-10-2018 17:37:58	Gathering data compression options
+06-10-2018 17:37:58	Gathering sequence types
+06-10-2018 17:37:58	Gathering security policies
+06-10-2018 17:37:58	Gather column encryption keys
+06-10-2018 17:37:58	Gathering column master keys
+06-10-2018 17:37:58	Gathering external data sources
+06-10-2018 17:37:58	Gathering external file formats
+06-10-2018 17:37:58	Gathering external tables
+06-10-2018 17:37:58	Gathering extended properties
+06-10-2018 17:37:59	Scanning project for duplicate elements
+06-10-2018 17:38:00	Finished duplicate element processing
+06-10-2018 17:38:00	Finished importing database.
+06-10-2018 17:38:00	A summary of the import was saved to the following location: C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_Handin2\Import Schema Logs\Database_Handin2_20181006033750.log
+06-10-2018 17:38:00	Click Finish to continue...

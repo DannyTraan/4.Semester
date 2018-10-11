@@ -1,0 +1,6 @@
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_Handin2\bin\Debug\Database_Handin2.dacpac
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_Handin2\obj\Debug\Database_Handin2.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_Handin2\obj\Debug\Database_Handin2.pdb
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_Handin2\bin\Debug\Database_Handin2.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_Handin2\bin\Debug\Database_Handin2.pdb
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_Handin2\obj\Debug\Database_Handin2.sqlprojAssemblyReference.cache
