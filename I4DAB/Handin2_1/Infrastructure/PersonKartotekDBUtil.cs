@@ -68,7 +68,6 @@ namespace Infrastructure
 
         public void UpdatePersonDB(ref Person p)
         {
-            //Command string
             string updateString =
                 @"UPDATE Person
                         SET _ForNavn = @_ForNavn, _MellemNavn = @_MellemNavn, _EfterNavn = @_EfterNavn, _PersonType = @_PersonType
@@ -184,7 +183,8 @@ namespace Infrastructure
                         _AdresseType = (string)rdr["_AdresseType"],
                         _GadeNavn = (string)rdr["_Gade"],
                         _GadeNummer = (string)rdr["_GadeNummer"]
-                    }; //Ny instans i hver gennemløb!
+                    };
+
                     AdresseP.Add(A);
 
                 }
@@ -485,14 +485,15 @@ namespace Infrastructure
         #region Telefon
         public void AddTelefonDB(ref Telefon tlf)
         {
-            string insertStringParam = @"INSERT INTO [Telefon] (_TeleSelskab, _TelefonType, _Nummer)
+            string insertStringParam = @"INSERT INTO [Telefon] (_TeleSelskab, _TelefonType, _Nummer, _PersonID)
                                                         OUTPUT INSERTED._TelefonID
-                                                        VALUES (@_TeleSelskab, @_TelefonType, @_Nummer)";
+                                                        VALUES (@_TeleSelskab, @_TelefonType, @_Nummer, @_PersonID)";
             using (SqlCommand cmd = new SqlCommand(insertStringParam, OpenConnection))
             {
                 cmd.Parameters.AddWithValue("@_TeleSelskab", tlf._TeleSelskab);
                 cmd.Parameters.AddWithValue("@_TelefonType", tlf._TelefonType);
                 cmd.Parameters.AddWithValue("@_Nummer", tlf._Nummer);
+                cmd.Parameters.AddWithValue("@_PersonID", tlf._PersonID);
                 tlf._TelefonID = (long)cmd.ExecuteScalar();
             }
         }

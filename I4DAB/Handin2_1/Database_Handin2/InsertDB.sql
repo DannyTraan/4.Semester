@@ -20,8 +20,8 @@ SELECT * FROM Email;
 SELECT * FROM Noter;
 SELECT * FROM AA;
 --Giv nogle værdier
-INSERT INTO [dbo].[Person] ([_ForNavn],[_MellemNavn], [_EfterNavn], [_AdresseID], [_PersonType], [_TelefonID], [_NoteID], [_EmailID]) VALUES (N'Nina', N'Thanh Truc', N'Nguyen', 1, N'Vietnameser', 1, 1, 1)
-INSERT INTO [dbo].[Telefon]([_TeleSelskab], [_Nummer], [_TelefonType]) VALUES (N'OiSTER', 28195388, N'Privat')
+INSERT INTO [dbo].[Person] ([_ForNavn],[_MellemNavn], [_EfterNavn], [_AdresseID], [_PersonType]) VALUES (N'Nina', N'Thanh Truc', N'Nguyen', 1, N'Vietnameser')
+INSERT INTO [dbo].[Telefon]([_TeleSelskab], [_Nummer], [_TelefonType], [_PersonID]) VALUES (N'OiSTER', 28195388, N'Privat', 2)
 --Slet nogle tabeller
 DELETE FROM Person WHERE _PersonID = 10039;
 

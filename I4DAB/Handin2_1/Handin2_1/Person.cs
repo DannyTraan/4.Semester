@@ -15,9 +15,6 @@ namespace Handin2_1
         public virtual string _EfterNavn { get; set; }
         public virtual long _PersonID { get; set; }
         public virtual string _PersonType { get; set; }
-        public virtual long _TelefonID { get; set; }
-        public virtual long _EmailID { get; set; }
-        public virtual long _NoteID { get; set; }
         public virtual long _AdresseID { get; set; }
 
         public virtual ICollection<Adresse> _Adresser { get; set; }

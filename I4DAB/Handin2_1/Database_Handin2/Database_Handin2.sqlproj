@@ -63,16 +63,16 @@
     <Folder Include="dbo\Tables\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Telefon.sql" />
-    <Build Include="dbo\Tables\Email.sql" />
+    <None Include="InsertDB.sql" />
+  </ItemGroup>
+  <ItemGroup>
     <Build Include="dbo\Tables\ZIPListe.sql" />
-    <Build Include="dbo\Tables\Noter.sql" />
     <Build Include="dbo\Tables\ZIP.sql" />
     <Build Include="dbo\Tables\Adresse.sql" />
     <Build Include="dbo\Tables\Person.sql" />
+    <Build Include="dbo\Tables\Telefon.sql" />
+    <Build Include="dbo\Tables\Email.sql" />
     <Build Include="dbo\Tables\AA.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="InsertDB.sql" />
+    <Build Include="dbo\Tables\Noter.sql" />
   </ItemGroup>
 </Project>

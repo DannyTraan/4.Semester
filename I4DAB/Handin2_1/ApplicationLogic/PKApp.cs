@@ -29,19 +29,19 @@ namespace ApplicationLogic
             //Console.WriteLine("***Delete Completed***");
 
             //****Adresse ****
-            Adresse nyAdresse = new Adresse()
-            { _AdresseType = "Privat", _GadeNavn = "Kalendervej", _GadeNummer = "82", _By = "Aarhus", _AdresseID = 1, _ZipID = 1 };
+            //Adresse nyAdresse = new Adresse()
+            //{ _AdresseType = "Privat", _GadeNavn = "Kalendervej", _GadeNummer = "82", _By = "Aarhus", _AdresseID = 1, _ZipID = 1 };
             //putil.AddAdresseDB(ref nyAdresse);
             //putil.DeleteAdresseDB(ref nyAdresse);
-            putil.UpdateAdresse(ref nyAdresse);
-            Console.WriteLine("***Deleted Adresse***");
+            //putil.UpdateAdresse(ref nyAdresse);
+            //Console.WriteLine("***Deleted Adresse***");
 
             //***Telefon***
-            //Telefon nyTelefon = new Telefon() { _TeleSelskab = "CBB", _Nummer = "84736297", _TelefonType = "Arbejde", _TelefonID = 2};
-            //putil.AddTelefonDB(ref nyTelefon);
+            Telefon nyTelefon = new Telefon() { _TeleSelskab = "CBB", _Nummer = "84736297", _TelefonType = "Arbejde", _TelefonID = 1, _PersonID = 2};
+            putil.AddTelefonDB(ref nyTelefon);
             //putil.UpdateTelefonDB(ref nyTelefon);
             //putil.DeleteTelefonDB(ref nyTelefon);
-            //Console.WriteLine("***Update Telefon***");
+            Console.WriteLine("***Added Telefon***");
         }
     }
 }

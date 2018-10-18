@@ -12,5 +12,6 @@ namespace Handin2_1
         public virtual string _TeleSelskab { get; set; }
         public virtual string _TelefonType { get; set; }
         public virtual string _Nummer { get; set; }
+        public virtual int _PersonID { get; set; }
     }
 }
