@@ -10,5 +10,6 @@ namespace Handin2_1
     {
         public virtual string _EmailAdresse { get; set; }
         public virtual long _EmailID { get; set; }
+        public virtual long _PersonID { get; set; }
     }
 }

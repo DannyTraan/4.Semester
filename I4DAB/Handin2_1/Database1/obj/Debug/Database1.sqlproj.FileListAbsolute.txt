@@ -1,9 +1,0 @@
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\bin\Debug\Database1.dacpac
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\bin\Debug\Database1.dll
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\bin\Debug\Database1.pdb
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\obj\Debug\Model.xml
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\obj\Debug\refactor.xml
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\obj\Debug\postdeploy.sql
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\obj\Debug\predeploy.sql
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\obj\Debug\Database1.dll
-C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database1\obj\Debug\Database1.pdb

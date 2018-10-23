@@ -34,10 +34,10 @@ namespace Infrastructure
         {
             get
             {
-                var con = new SqlConnection(
-                @"Data Source=(localdb)\ProjectsV13;Initial Catalog=Database_Handin2;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                //var con = new SqlConnection(
+                //@"Data Source=(localdb)\ProjectsV13;Initial Catalog=Database_Handin2;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
                 
-                //var con = new SqlConnection("Data Source=st-i4dab.uni.au.dk;Initial Catalog=E18I4DABau556770;User ID=E18I4DABau556770;Password=E18I4DABau556770;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                var con = new SqlConnection("Data Source=st-i4dab.uni.au.dk;Initial Catalog=E18I4DABau556770;User ID=E18I4DABau556770;Password=E18I4DABau556770;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
                 con.Open();
                 return con;
@@ -430,28 +430,31 @@ namespace Infrastructure
         #region Noter
         public void AddNoterDB(ref Noter note)
         {
-            string insertStringParam = @"INSERT INTO [Noter] (_Noter)
+            string insertStringParam = @"INSERT INTO [Noter] (_Noter, _PersonID)
                                                         OUTPUT INSERTED._NoteID
-                                                        VALUES (@_Noter)";
+                                                        VALUES (@_Noter, @_PersonID)";
             using (SqlCommand cmd = new SqlCommand(insertStringParam, OpenConnection))
             {
                 cmd.Parameters.AddWithValue("@_Noter", note._Noter);
+                cmd.Parameters.AddWithValue("@_PersonID", note._PersonID);
                 note._NoteID= (long)cmd.ExecuteScalar();
             }
         }
 
         public void GetNoterByID(ref Noter note)
         {
-            string sqlcmd = @"SELECT * FROM Noter WHERE (_NoteID= @_NoteID)";
+            string sqlcmd = @"SELECT * FROM Noter WHERE (_NoteID = @_NoteID, _PersonID = @_PersonID)";
             using (var cmd = new SqlCommand(sqlcmd, OpenConnection))
             {
                 cmd.Parameters.AddWithValue("@_NoteID", note._NoteID);
+                cmd.Parameters.AddWithValue("@_PersonID", note._PersonID);
                 SqlDataReader rdr = null;
                 rdr = cmd.ExecuteReader();
                 if (rdr.Read())
                 {
-                    note._NoteID = (long)rdr["_NoteID"];
-                    note._Noter = (string)rdr["_Noter"];
+                    note._NoteID = (long) rdr["_NoteID"];
+                    note._Noter = (string) rdr["_Noter"];
+                    note._PersonID = (long) rdr["_PersonID"];
                 }
             }
         }
@@ -459,11 +462,12 @@ namespace Infrastructure
         public void UpdateNoterDB(ref Noter note)
         {
             string updateString = @"Noter
-                                    SET _Noter = @_Noter
+                                    SET _Noter = @_Noter, _PersonID = @_PersonID
                                     WHERE _NoteID = @_NoteID";
             using (SqlCommand cmd = new SqlCommand(updateString, OpenConnection))
             {
                 cmd.Parameters.AddWithValue("@_Noter", note._Noter);
+                cmd.Parameters.AddWithValue("@_PersonID", note._PersonID);
                 var id = (long)cmd.ExecuteNonQuery();
             }
         }
@@ -500,10 +504,11 @@ namespace Infrastructure
 
         public void GetTelefonByID(ref Telefon tlf)
         {
-            string sqlcmd = @"SELECT * FROM Telefon WHERE (_TelefonID= @_TelefonID)";
+            string sqlcmd = @"SELECT * FROM Telefon WHERE (_TelefonID = @_TelefonID, _PersonID = @_PersonID)";
             using (var cmd = new SqlCommand(sqlcmd, OpenConnection))
             {
-                cmd.Parameters.AddWithValue("@_NoteID", tlf._TelefonID);
+                cmd.Parameters.AddWithValue("@_TelefonID", tlf._TelefonID);
+                cmd.Parameters.AddWithValue("@_PersonID", tlf._PersonID);
                 SqlDataReader rdr = null;
                 rdr = cmd.ExecuteReader();
                 if (rdr.Read())
@@ -512,6 +517,7 @@ namespace Infrastructure
                     tlf._TeleSelskab = (string)rdr["_TeleSelskab"];
                     tlf._TelefonType = (string) rdr["_TelefonType"];
                     tlf._Nummer = (string) rdr["_Nummer"];
+                    tlf._PersonID = (long) rdr["_PersonID"];
                 }
             }
         }
@@ -519,7 +525,7 @@ namespace Infrastructure
         public void UpdateTelefonDB(ref Telefon tlf)
         {
             string updateString = @"UPDATE Telefon
-                                    SET _TeleSelskab = @_TeleSelskab, _TelefonType = @_TelefonType, _Nummer = @_Nummer
+                                    SET _TeleSelskab = @_TeleSelskab, _TelefonType = @_TelefonType, _Nummer = @_Nummer, _PersonID = @_PersonID
                                     WHERE _TelefonID = @_TelefonID";
             using (SqlCommand cmd = new SqlCommand(updateString, OpenConnection))
             {
@@ -527,6 +533,7 @@ namespace Infrastructure
                 cmd.Parameters.AddWithValue("@_TelefonType", tlf._TelefonType);
                 cmd.Parameters.AddWithValue("@_Nummer", tlf._Nummer);
                 cmd.Parameters.AddWithValue("@_TelefonID", tlf._TelefonID);
+                cmd.Parameters.AddWithValue("@_PersonID", tlf._PersonID);
                 var id = (long)cmd.ExecuteNonQuery();
             }
         }
@@ -548,36 +555,44 @@ namespace Infrastructure
         #region Email
         public void AddEmailDB(ref Email em)
         {
-            string insertStringParam = @"INSERT INTO [Email] (_EmailAdresse)
+            string insertStringParam = @"INSERT INTO [Email] (_EmailAdresse, _PersonID)
                                                         OUTPUT INSERTED._EmailID
-                                                        VALUES (@_EmailAdresse)";
+                                                        VALUES (@_EmailAdresse, @_PersonID)";
             using (SqlCommand cmd = new SqlCommand(insertStringParam, OpenConnection))
             {
                 cmd.Parameters.AddWithValue("@_TeleSelskab", em._EmailAdresse);
-                em._EmailID = (int)cmd.ExecuteScalar();
+                cmd.Parameters.AddWithValue("@_PersonID", em._PersonID);
+                em._EmailID = (long)cmd.ExecuteScalar();
             }
         }
 
         public void GetEmailByID(ref Email em)
         {
-            string insertStringParam = @"INSERT INTO [Email] (_EmailAdresse)
-                                                        OUTPUT INSERTED._EmailID
-                                                        VALUES (@_EmailAdresse)";
-            using (SqlCommand cmd = new SqlCommand(insertStringParam, OpenConnection))
+            string sqlcmd = @"SELECT * FROM Email WHERE (_EmailID = @_EmailID, _EmailAdresse = @_EmailAdresse, _PersonID = @_PersonID)";
+            using (var cmd = new SqlCommand(sqlcmd, OpenConnection))
             {
-                cmd.Parameters.AddWithValue("@_TeleSelskab", em._EmailAdresse);
-                em._EmailID= (long)cmd.ExecuteScalar();
+                cmd.Parameters.AddWithValue("@_EmailAdresse", em._EmailAdresse);
+                cmd.Parameters.AddWithValue("@_PersonID", em._PersonID);
+                SqlDataReader rdr = null;
+                rdr = cmd.ExecuteReader();
+                if (rdr.Read())
+                {
+                    em._EmailID = (long) rdr["_EmailID"];
+                    em._EmailAdresse = (string) rdr["_EmailAdresse"];
+                    em._PersonID = (long) rdr["_PersonID"];
+                }
             }
         }
 
         public void UpdateEmailDB(ref Email em)
         {
             string updateString = @"Email
-                                    SET _EmailAdresse = @_EmailAdresse
+                                    SET _EmailAdresse = @_EmailAdresse, _PersonID = @_PersonID
                                     WHERE _EmailID = @_EmailID";
             using (SqlCommand cmd = new SqlCommand(updateString, OpenConnection))
             {
                 cmd.Parameters.AddWithValue("@_EmailAdresse", em._EmailAdresse);
+                cmd.Parameters.AddWithValue("@_PersonID", em._PersonID);
 
                 var id = (long)cmd.ExecuteNonQuery();
             }

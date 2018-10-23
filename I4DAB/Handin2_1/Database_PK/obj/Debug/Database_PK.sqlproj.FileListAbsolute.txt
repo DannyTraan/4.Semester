@@ -1,0 +1,9 @@
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\bin\Debug\Database_PK.dacpac
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\bin\Debug\Database_PK.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\bin\Debug\Database_PK.pdb
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\obj\Debug\Model.xml
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\obj\Debug\refactor.xml
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\obj\Debug\postdeploy.sql
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\obj\Debug\predeploy.sql
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\obj\Debug\Database_PK.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin2_1\Database_PK\obj\Debug\Database_PK.pdb

@@ -37,7 +37,7 @@ namespace ApplicationLogic
             //Console.WriteLine("***Deleted Adresse***");
 
             //***Telefon***
-            Telefon nyTelefon = new Telefon() { _TeleSelskab = "CBB", _Nummer = "84736297", _TelefonType = "Arbejde", _TelefonID = 1, _PersonID = 2};
+            Telefon nyTelefon = new Telefon() { _TeleSelskab = "Telenor", _Nummer = "93523987", _TelefonType = "Arbejde", _TelefonID = 1, _PersonID = 1};
             putil.AddTelefonDB(ref nyTelefon);
             //putil.UpdateTelefonDB(ref nyTelefon);
             //putil.DeleteTelefonDB(ref nyTelefon);

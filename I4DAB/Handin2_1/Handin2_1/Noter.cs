@@ -9,6 +9,7 @@ namespace Handin2_1
     {
         public virtual long _NoteID { get; set; }
         public virtual string _Noter { get; set; }
+        public virtual long _PersonID { get; set; }
 
     }
 }
