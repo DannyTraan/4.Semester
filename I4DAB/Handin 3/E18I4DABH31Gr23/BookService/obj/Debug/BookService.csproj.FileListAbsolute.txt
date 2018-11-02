@@ -101,3 +101,6 @@ C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin
 C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin 3\E18I4DABH31Gr23\BookService\obj\Debug\BookService.pdb
 C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin 3\E18I4DABH31Gr23\BookService\obj\Debug\BookService.Migrations.Initial.resources
 C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin 3\E18I4DABH31Gr23\BookService\obj\Debug\BookService.csproj.GenerateResource.cache
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin 3\E18I4DABH31Gr23\BookService\bin\Swashbuckle.Core.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin 3\E18I4DABH31Gr23\BookService\bin\WebActivatorEx.dll
+C:\Users\Danny\OneDrive - Aarhus universitet\4. Semester\Repository\I4DAB\Handin 3\E18I4DABH31Gr23\BookService\bin\BookService.xml

@@ -13,17 +13,26 @@ using BookService.Models;
 
 namespace BookService.Controllers
 {
+    /// <summary>
+    /// AuthorsController
+    /// </summary>
     public class AuthorsController : ApiController
     {
         private BookServiceContext db = new BookServiceContext();
-
-        // GET: api/Authors
+        /// <summary>
+        /// Get all Authors
+        /// </summary>
+        /// <returns></returns>
         public IQueryable<Author> GetAuthors()
         {
             return db.Authors;
         }
 
-        // GET: api/Authors/5
+        /// <summary>
+        /// Get Author by ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [ResponseType(typeof(Author))]
         public async Task<IHttpActionResult> GetAuthor(int id)
         {
@@ -36,7 +45,12 @@ namespace BookService.Controllers
             return Ok(author);
         }
 
-        // PUT: api/Authors/5
+        /// <summary>
+        /// Update an existing Author
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="author"></param>
+        /// <returns></returns>
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> PutAuthor(int id, Author author)
         {
@@ -71,6 +85,11 @@ namespace BookService.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
+        /// <summary>
+        /// Add new Author
+        /// </summary>
+        /// <param name="author"></param>
+        /// <returns></returns>
         // POST: api/Authors
         [ResponseType(typeof(Author))]
         public async Task<IHttpActionResult> PostAuthor(Author author)
@@ -86,7 +105,11 @@ namespace BookService.Controllers
             return CreatedAtRoute("DefaultApi", new { id = author.Id }, author);
         }
 
-        // DELETE: api/Authors/5
+        /// <summary>
+        /// Delete an Author
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [ResponseType(typeof(Author))]
         public async Task<IHttpActionResult> DeleteAuthor(int id)
         {
@@ -102,6 +125,10 @@ namespace BookService.Controllers
             return Ok(author);
         }
 
+        /// <summary>
+        /// DisposeAuthor
+        /// </summary>
+        /// <param name="disposing"></param>
         protected override void Dispose(bool disposing)
         {
             if (disposing)

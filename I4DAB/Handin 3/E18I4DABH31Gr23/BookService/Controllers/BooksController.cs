@@ -13,21 +13,54 @@ using BookService.Models;
 
 namespace BookService.Controllers
 {
+    /// <summary>
+    /// BooksController
+    /// </summary>
     public class BooksController : ApiController
     {
         private BookServiceContext db = new BookServiceContext();
 
-        // GET: api/Books
-        public IQueryable<Book> GetBooks()
+        /// <summary>
+        /// Get all Books
+        /// </summary>
+        /// <remarks>
+        /// Get a list of all Books
+        /// </remarks>
+        /// <returns></returns>
+        public IQueryable<BookDTO> GetBooks()
         {
-            return db.Books;
+            var books = from b in db.Books
+                select new BookDTO()
+                {
+                    Id = b.Id,
+                    Title = b.Title,
+                    AuthorName = b.Author.Name
+                };
+
+            return books;
         }
 
-        // GET: api/Books/5
-        [ResponseType(typeof(Book))]
+        /// <summary>
+        /// Get Book by ID
+        /// </summary>
+        /// <remarks>
+        /// Get a specifik Book
+        /// </remarks>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [ResponseType(typeof(BookDTO))]
         public async Task<IHttpActionResult> GetBook(int id)
         {
-            Book book = await db.Books.FindAsync(id);
+            var book = await db.Books.Include(b => b.Author).Select(b =>
+                new BookDetailDTO()
+                {
+                    Id = b.Id,
+                    Title = b.Title,
+                    Year = b.Year,
+                    Price = b.Price,
+                    AuthorName = b.Author.Name,
+                    Genre = b.Genre
+                }).SingleOrDefaultAsync(b => b.Id == id);
             if (book == null)
             {
                 return NotFound();
@@ -36,7 +69,15 @@ namespace BookService.Controllers
             return Ok(book);
         }
 
-        // PUT: api/Books/5
+        /// <summary>
+        /// Update an existing Book
+        /// </summary>
+        /// <remarks>
+        /// Shows an existing Book
+        /// </remarks>
+        /// <param name="id"></param>
+        /// <param name="book"></param>
+        /// <returns></returns>
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> PutBook(int id, Book book)
         {
@@ -71,7 +112,14 @@ namespace BookService.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/Books
+        /// <summary>
+        /// Add new Book
+        /// </summary>
+        /// <remarks>
+        /// Add a new Book to the collection
+        /// </remarks>
+        /// <param name="book"></param>
+        /// <returns></returns>
         [ResponseType(typeof(Book))]
         public async Task<IHttpActionResult> PostBook(Book book)
         {
@@ -83,10 +131,28 @@ namespace BookService.Controllers
             db.Books.Add(book);
             await db.SaveChangesAsync();
 
-            return CreatedAtRoute("DefaultApi", new { id = book.Id }, book);
+            // New code:
+            // Load author name
+            db.Entry(book).Reference(x => x.Author).Load();
+
+            var dto = new BookDTO()
+            {
+                Id = book.Id,
+                Title = book.Title,
+                AuthorName = book.Author.Name
+            };
+
+            return CreatedAtRoute("DefaultApi", new { id = book.Id }, dto);
         }
 
-        // DELETE: api/Books/5
+        /// <summary>
+        /// Delete a Book
+        /// </summary>
+        /// <remarks>
+        /// Delete a Book from the collection
+        /// </remarks>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [ResponseType(typeof(Book))]
         public async Task<IHttpActionResult> DeleteBook(int id)
         {
@@ -102,6 +168,10 @@ namespace BookService.Controllers
             return Ok(book);
         }
 
+        /// <summary>
+        /// DisposeBook
+        /// </summary>
+        /// <param name="disposing"></param>
         protected override void Dispose(bool disposing)
         {
             if (disposing)
